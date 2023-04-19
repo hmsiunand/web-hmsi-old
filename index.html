@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HMSI Unand</title>
+	<link rel="icon" href="./favicon-96x96.png" type="image/ico" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style2.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/scrollreveal.min.js"></script>
+
+    <style>
+        .center {
+        display : block;
+        margin-left: auto;
+        margin-right : auto;
+        width: 35%;
+        }
+
+        .card-body {
+        min-height:900px;
+        }
+        
+        .pres {
+        min-height:500px;
+        }
+
+        .div{
+        min-height : 800px;
+        }
+        #kontak-section{
+        padding-top:unset;
+        }
+    </style>
+
+</head>
+<body id="cghmsiua">
+	<nav class="navbar navbar-expand-sm fixed-top">
+		<div class="container">
+			<a href="#cghmsiua" class="navbar-brand navbar-brand-edit" onclick="$('body').animatescroll();">
+				<div class="logo-nav"></div>
+			</a>
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#mynavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mynavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link nav-link-edit" href="https://hmsiftiblog.wordpress.com/" style="color: #fff;">BLOG
+							<div class="garis" id="br"></div>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-link-edit" onclick="$('#about-section').animatescroll({scrollSpeed:1000,easing:'easeInOutBack'});" style="color: #fff;">ABOUT
+							<div class="garis" id="br"></div>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-link-edit" onclick="$('#kompetisi-section').animatescroll({scrollSpeed:1000,easing:'easeInOutBack'});" style="color: #fff;">DIVISIONS
+							<div class="garis" id="br"></div>
+						</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link nav-link-edit" onclick="$('#acara-section').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});" style="color: #fff;">STRUCTURE
+							<div class="garis" id="br"></div>
+						</a>
+					</li> -->
+					<!-- <li class="nav-item">
+						<a class="nav-link nav-link-edit" onclick="$('#timeline-section').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});" style="color: #fff;">TIMELINE
+							<div class="garis" id="br"></div>
+						</a>
+					</li> -->
+					<li class="nav-item">
+						<a class="nav-link nav-link-edit" onclick="$('#kontak-section').animatescroll({scrollSpeed:1000,easing:'easeInOutBack'});" style="color: #fff;">CONTACT
+							<div class="garis" id="br"></div>
+						</a>
+					</li>
+					<li class="nav-item">
+						<!-- <a href="https://itfestusu.id/ITFest/signin"><button class="btn px-5 signup">DAFTAR/MASUK</button></a> -->
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header id="about">
+		<div class="container">
+			<div class="row">
+				  <div class="col col-header">
+					<h3 class="head">Himpunan Mahasiswa Sistem Informasi<br>Fakultas Teknologi Informasi</h3>
+					<h4 class="head-2">Universitas Andalas</h4>
+					<div class="row row2">
+						<div class="col">
+							<a href="http://unand.ac.id" target="_blank"><img src="img/logo/logo-unand.png" alt="codersguild" style="max-height: 100px; margin-right: 30px;"></a>
+							<a href="http://hmsi.si.fti.unand.ac.id" target="_blank"><img src="img/logo/logo-white-edit.png" alt="codersguild" style="max-height: 100px; "></a>
+						</div>
+					</div>
+					<button class="btn head1" onclick="$('#about-section').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">About</button>
+					<!-- <a href="https://itfestusu.id/ITFest/signin"><button class="btn head2">Daftar/Masuk</button></a> -->
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section id="about-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-test">
+					<img class="col-test-img" src="img/logo/logo-white-edit.png" alt="codersguild">
+				</div>
+				<div class="col-md-6 col-about-2">
+					<div class="garis-text d-none d-lg-block"></div>
+					<h2 class="about2" style="text-shadow: 0 0 2px lightgrey;">About Us</h2>
+					<p style="text-indent: 10%; text-shadow: 0 0 2px lightgrey;">
+						HMSI adalah Himpunan Mahasiswa Sistem Informasi yang berada pada jurusan Sistem Informasi yang berfungsi sebagai wadah untuk menyalurkan aspirasi, media komunikasi dan informasi, serta pembelajaran organisasi untuk pengembangan diri bagi anggotanya.<br>
+					</p>
+					<p style="text-indent: 10%; text-shadow: 0 0 2px lightgrey;">
+						Visi :
+					</p>
+					<p style="text-indent: 10%; text-shadow: 0 0 2px lightgrey;">
+						"Menjadikan HMSI sebagai himpunan yang memiliki pribadi-pribadi yang unggul dan profesional dengan berlandaskan asas kekeluargaan dan keagamaan.""
+					</p>
+					<p style="text-indent: 10%; text-shadow: 0 0 2px lightgrey;">
+						Misi :
+					</p>
+					<ul style="text-shadow: 0 0 2px lightgrey">
+						<li>Mempererat ikatan kekeluargaan internal & eksternal HMSI.</li>
+						<li>Meningkatkan akhlak mulia dan sikap profesional dalam menjalankan kepengurusan HMSI.</li>
+						<li>Mengembangkan kemampuan akademik dan non-akademik anggota.</li>
+						<li>Meningkatkan prestasi anggota HMSI.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="kompetisi-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-kompetisi">
+					<center><h1 class="h1-kompetisi">Divisions</h1>
+						<hr class="hr-kompetisi">
+						<p class="p-judul-kompetisi">Divisi-divisi pada HMSI</p><br>
+					</center>
+				</div>
+				<div class="card-columns">
+					<center>
+						<div class="card" ></div>
+					<div class="card" >
+						<div class="card-body pres">
+							<img class="center" src="img/comp/1.png" alt="" style="max-height: 110px; ">
+							<h4 class="card-title text-center">Presidium Inti</h4>
+							<p class="text-center mb-4">Terdiri dari Ketua umum, Wakil ketua umum, Sekretaris umum, serta Bendahara umum.</p>
+							
+							<p class="px-2"><b>Ketua umum: </b> M Farhan Zuhdi</p>
+							<p class="px-2"><b>Wakil ketua umum		:</b> M Reza Rizki Rahmadi</p>
+							<p class="px-2"><b>Sekretaris umum	:</b> Annisha Aprillya</p>
+							<p class="px-2"><b>Bendahara umum 		: </b>Raidha Qatrunnada</p>
+							
+						</div>
+					</div>	
+					<div class="card" ></div>
+					</center>
+					
+				</div>	
+				
+				
+				<div class="card-columns">					
+					<div class="card" >
+						<div class="card-body">
+							<img class="center" src="img/comp/2.png" alt="" style="max-height: 110px;">
+							<h4 class="card-title text-center">Divisi Pengembangan Sumber Daya Manusia</h4>
+							<p class="text-center  mb-4">Merupakan divisi yang bertanggung jawab atas segala kegiatan mahasiswa sistem informasi universitas andalas.</p>
+							
+                            <p class="px-2"><b>Kepala Divisi</b> : Ahmad Fauzan Alqadri</p>
+                            <p class="px-2"><b>Sekretaris Divisi	</b>: Reysha Irsyalina</p>
+                            <p class="px-2"><b>Bendahara Divisi		</b>: Winanda Afrilia Harisya</p>
+                            <p class="px-2"><b>Nama Anggota		:  </b></p>
+                                <ol>Muhammad Farhan. A</ol>
+                                <ol>Doni Hamdani</ol>
+                                <ol>Muhammad Idris</ol>
+                                <ol>Siti Nur Aisah</ol>
+                                <ol>Boby Darmawan</ol>
+                                <ol>Vallen Adithya Rekhsana</ol>
+                                <ol>Muhammad Zaim Milzam</ol>
+                                <ol>Muhammad Yudhistira</ol>
+
+						</div>
+					</div>
+					<div class="card" >
+						<div class="card-body">
+							<img class="center pb-4"src="img/comp/3.png" alt="" style="max-height: 110px;">
+							<h4 class="card-title text-center">Divisi Hubungan Masyarakat</h4>
+							<p class="text-center  mb-3">Merupakan divisi yang bertanggung jawab atas segala kegiatan hubungan masayarakat sistem informasi universitas andalas.</p>
+							
+                            <p class="px-2"><b>Kepala Divisi		: </b>Salsabila Rahmadani Putri</p>
+                            <!-- <p class="px-2"><b>Sekretaris Divisi	:</b> Dhinda Amalia Kiflia</p> -->
+                            <!-- <p class="px-2"><b>Bendahara Divisi		:</b> Fadhilla Islamita Putri</p> -->
+                            <p class="px-2"><b>Nama Anggota		:  </b></p>							
+                                <ol>Delicia Syifa Maghfira</ol>
+                                <ol>Deyola Fadwa Shifana</ol>
+                                <ol>Faiz Abdullah</ol>
+                                <ol>Zuha Bima Alfaruq</ol>
+                                <ol>Muhamma Erlangga Adi Nugraha</ol>
+                                <ol>Thomas Akram Ferdinan</ol>
+                                <ol>Shefilla Raisya Razade Stevano</ol>
+
+						</div>
+					</div>
+					<div class="card" >
+						<div class="card-body">
+							<img class="center pb-4"src="img/comp/3.png" alt="" style="max-height: 110px;">
+							<h4 class="card-title text-center">Divisi Informasi dan Media</h4>
+							<p class="text-center  mb-4">Merupakan divisi yang bertanggung jawab atas segala penyajian informasi di himpunan mahasiswa sistem informasi.</p>
+							
+                            <p class="px-2"><b>Kepala Divisi		:</b> Fadhilla Islamita Putri</p>
+                            <!-- <p class="px-2"><b>Sekretaris Divisi	:</b> Miftah Musaumi Adi</p> -->
+                            <!-- <p class="px-2"><b>Bendahara Divisi		:</b> Dewi Kartika</p> -->
+                            <p class="px-2"><b>Nama Anggota		:  </b></p>
+                                <ol>Distifia Oktari</ol>
+                                <ol>Lisca Angriani</ol>
+                                <ol>Siti Nina Azwalia Tanjung</ol>
+                                <ol>Rafiqah</ol>
+                                <ol>Fauzan Maizardi</ol>
+                                <ol>Fathia Rahma Nazhifa</ol>
+                                <ol>Lara Busyanil</ol>
+                                <ol>Muhammad Rayhan Rizaldi</ol>
+
+						</div>
+					</div>
+				</div>
+				<div class="card-columns">
+
+					<div class="card">
+						<div class="card-body div">
+							<img class="center" src="img/comp/4.png" alt="" style="max-height: 110px;">
+							<h4 class="card-title text-center">Divisi Rumah Tangga dan Kesekretariatan</h4>
+							<p class="text-center  mb-4">Merupakan divisi yang bertanggung jawab atas segala kegiatan di kesekretariatan himpunan mahasiswa sistem informasi.</p>
+							
+                            <p class="px-2"><b>Kepala Divisi		:</b> Muhammad Afif</p>
+                            <!-- <p class="px-2"><b>Sekretaris Divisi	:</b> Miftah Musaumi Adi</p> -->
+                            <!-- <p class="px-2"><b>Bendahara Divisi		:</b> Dewi Kartika</p> -->
+                            <p class="px-2"><b>Nama Anggota		:  </b></p>
+                                <ol>Desrilia Putri Utami</ol>
+                                <ol>Sri Ulfa Berliani</ol>
+                                <ol>Dean Fisabil Andwi</ol>
+                                <ol>Faradila Suwandi</ol>
+                                <ol>Nadilla Saraswati</ol>
+                                <ol>Radithya Romero Al Giffary</ol>
+
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body div">
+							<img class="center" src="img/comp/5.png" alt="" style="max-height: 110px;">
+							<h4 class="card-title text-center">Divisi Pengembangan Skill dan Intelektual</h4>
+							<p class="text-center  mb-4">Merupakan divisi yang bertanggung jawab atas segala kegiatan keprofesian dan teknologi informasi pada himpunan mahasiswa sistem infomrasi.</p>
+							
+                            <p class="px-2"><b>Kepala Divisi		: </b>Iqbal Manazil Yuni</p>
+                            <p class="px-2"><b>Sekretaris Divisi	:</b> Riska Shifa Salsabilla</p>
+                            <p class="px-2"><b>Bendahara Divisi		:</b> Rahmadina</p>
+                            <p class="px-2"><b>Nama Anggota		:  </b></p>
+                                <ol>Ginda Teguh Imani</ol>
+                                <ol>Alif Abdul Rauf</ol>
+                                <ol>Hagi Siraj Sumanta</ol>
+                                <ol>Kemal Muhammad Hiero</ol>
+                                <ol>Nada Safarina</ol>
+
+						</div>
+					</div>
+					<div class="card" >
+						<div class="card-body div">
+							<img class="center" src="img/comp/6.png" alt="" style="max-height: 110px;">
+							<h4 class="card-title text-center">Divisi Kewirausahaan</h4>
+							<p class="text-center  mb-4">Merupakan divisi yang bertanggung jawab atas segala kegiatan wirausaha pada himpunan mahasiswa sistem informasi.</p>
+							
+                            <p class="px-2"><b>Kepala Divisi		:</b> M Kevin Beslia</p>
+                            <!-- <p class="px-2"><b>Sekretaris Divisi	:</b> Nurul Hafizah Alza</p>
+                            <p class="px-2"><b>Bendahara Divisi		:</b> Puty Salima</p> -->
+                            <p class="px-2"><b>Nama Anggota		:  </b></p>
+                                <ol>Muhammad Al-Hafiz</ol>
+                                <ol>Ananda Fitria</ol>
+                                <ol>Gita Putri</ol>
+                                <ol>Tri Ayunia Patma Lubis</ol>
+                                <ol>Taufik Hidayat</ol>
+                                <ol>Baitul Azizah</ol>
+                                <ol>Ruth Emeralda Raihan</ol>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <section id="acara-section">
+		<div class="container">
+			<div class="row" style="color: white; text-shadow: 1px 1px 1px rgba(0,0,0,.5)">
+				<div class="col-md-12 col-acara">
+					<center><h1 class="h1-kompetisi">Management Structure</h1>
+						<hr class="hr-kompetisi">
+						<p class="p-judul-kompetisi">
+							Berikut adalah struktur kepengurusan Himpunan Mahasiswa Sistem Informasi Periode 2019.
+						</p>
+						<p class="p-judul-kompetisi">
+							Ketua			: Gilang Priyatna Ferdana
+							Wakil			: Muhammad Hamdi
+							Sekretaris 1 	: Annisa Aulia Khaira
+						</p>
+					</center>
+				</div> -->
+				<!-- <div class="col-md-2"></div>
+				<div class="col-md-4" style="text-align: center;">
+					<h5>Web Division</h5>
+					<li>Koordinator - 404 name not found</li>
+					<li>Rahma si sekretaris teladan</li>
+					<li>Feny si awan kinton</li>
+					<li>Rion si anu akut</li>
+					<li>Opi si Bulcit</li>
+					<li>Albi si komting yg lah mailang2</li>
+					<li>apip jongkok</li>
+				</div>
+				<div class="col-md-4" style="text-align: center;">
+					<h5>Mobile Division</h5>
+					<li>Koordinator - Ananda Mardhatillah si kampret</li>
+					<li>3e5a600e</li>
+					<li>Popsicle</li>
+					<li>Tipa si anu</li>
+					<li>Muti si anu</li>
+					<li>Ilham si sesepuh</li>
+				</div>
+				<div class="col-md-2"></div> -->
+			<!-- </div>
+			
+		</div>
+	</section> -->
+
+	<!-- <section id="timeline-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6"></div>
+				<div class="col-md-6 col-timeline">
+					<div class="col-timeline">
+						<h1 class="h1-timeline">Timeline</h1>
+						<p><b>Persiapkan dirimu untuk mengikuti rangkaian acara di ITFest</b></p>
+						<hr class="hr-timeline"><br>
+					</div>
+					<div class="text-timeline">
+						<p><b>24 November 2018 – 11 Januari 2019</b> Registrasi Kompetisi</p>
+						<p><b>14 Januari 2019 – 7 Februari 2019</b> Penyisihan I</p>
+						<p><b>14 Februari 2019</b> Pengumuman Penyisihan I</p>
+						<p><b>15 Februari 2019 – 1 Maret 2019</b> Penyisihan II</p>
+						<p><b>7 Maret 2019</b> Pengumuman Finalis</p>
+						<p><b>16 Maret 2019</b> Final</p>
+						<p><b>17 Maret 2019</b> Acara Puncak ITFest 3.0</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	<section id="kontak-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-map">
+					<!-- Start Google Map -->
+					<section id="mu-google-map">
+			      	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3092131339718!2d100.45889341427304!3d-0.9153144355909941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b7963e1ea631%3A0x452d09b61f76d6ec!2sFakultas+Teknologi+Informasi!5e0!3m2!1sid!2sid!4v1547957484219" width="100%" height="500" frameborder="1" style="border:0" allowfullscreen></iframe>
+					</section>
+					<!-- End Google Map -->
+				</div>
+				<div class="col-md-12 col-img-kontak">
+					<a href="https://www.facebook.com/hmsiunand"><img class="img-kontak" src="img/sosmed/fb.png" alt="" width="30px"></a>
+					<a href="https://www.instagram.com/hmsi_unand/"><img class="img-kontak" src="img/sosmed/ig.png" alt="" width="30px"></a>
+					<a href="https://twitter.com/HMSI_UNAND"><img class="img-kontak" src="img/sosmed/twit.png" alt="" width="30px"></a>
+					<p class="p-footer">©2022 HMSI - Universitas Andalas</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript">
+		// Scrolling Effect
+	  $(window).on("scroll", function() {
+	        if($(window).scrollTop()) {
+	              $('nav').addClass('black');
+	              $('.logo-nav').addClass('logo-nav-white');
+	        }
+
+	        else {
+	              $('nav').removeClass('black');
+	              $('.logo-nav').removeClass('logo-nav-white');
+	        }
+	  })
+	</script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/animatescroll.js"></script>
+    <script>
+		window.sr = ScrollReveal({reset:true});
+		sr.reveal('.col-header', {
+			duration: 800,
+			origin:'left',
+			distance:'200px'
+		});
+		sr.reveal('.col-test', {
+			duration: 800,
+			origin:'left',
+			distance:'200px'
+		});
+		sr.reveal('.col-about-2', {
+			duration: 800,
+			delay:500,
+			origin:'bottom',
+			distance:'200px'
+		});
+		sr.reveal('.col-kompetisi', {
+			duration: 800,
+			origin:'left',
+			distance:'200px'
+		});
+		sr.reveal('.card-columns', {
+			duration: 800,
+			delay:500,
+			origin:'bottom',
+			distance:'100px'
+		});
+		sr.reveal('.col-acara', {
+			duration: 800,
+			origin:'left',
+			distance:'200px'
+		});
+		sr.reveal('.video-content', {
+			duration: 800,
+			delay:500,
+			origin:'bottom',
+			distance:'200px'
+		});
+		sr.reveal('.col-timeline', {
+			duration: 800,
+			origin:'top',
+			distance:'100px'
+		});
+		sr.reveal('.text-timeline', {
+			duration: 800,
+			delay:500,
+			origin:'left',
+			distance:'100px'
+		});
+	</script>
+</body>
+</html>
